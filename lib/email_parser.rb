@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailParser
-  def initialize(string)
+  def parse(string)
     return string.split(",")
   end
 end
